@@ -27,43 +27,9 @@ You have been supplied with the dataset `netflix_data.csv`, along with the follo
 
 
 Solve the following Assingnment:
-# Netflix 1990s Movie Analysis
+Perform exploratory data analysis on the netflix_data.csv data to understand more about movies from the 1990s decade.
 
-This project involves performing **exploratory data analysis (EDA)** on the `netflix_data.csv` dataset to gain insights specifically about movies from the **1990s decade**.
+1. What was the most frequent movie duration in the 1990s? Save an approximate answer as an integer called duration (use 1990 as the decade's start year).
+2. A movie is considered short if it is less than 90 minutes. Count the number of short action movies released in the 1990s and save this integer as short_movie_count.
 
-## Objectives
-
-1. **Filter Movies from the 1990s**  
-   Focus your analysis on movies released between **1990 and 1999** (inclusive).
-
-2. **Determine Most Frequent Duration**  
-   Identify the **most common movie duration** for this decade.  
-   - Save the result as an approximate integer in a variable named:  
-     ```python
-     duration
-     ```
-
-3. **Count Short Action Movies**  
-   Define a **short movie** as one with a duration of **less than 90 minutes**.  
-   Count how many **action movies** meet this criteria and were released in the 1990s.  
-   - Save this count as an integer in a variable named:  
-     ```python
-     short_movie_count
-     ```
-
-## Notes
-
-- Use appropriate data filtering and grouping methods.
-- You can use libraries like `pandas`, `matplotlib`, or `seaborn` to aid your analysis.
-- After submitting the project, feel free to **experiment further** with the dataset.
-
-## Dataset
-
-Make sure the file `netflix_data.csv` is available in your working directory. The dataset typically includes fields such as:
-- `title`
-- `release_year`
-- `duration`
-- `genre`
-- `type`
-
-Happy analyzing!
+Feel free to experiment after submitting the project!
