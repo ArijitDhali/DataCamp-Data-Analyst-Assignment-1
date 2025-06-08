@@ -28,7 +28,7 @@ You have been supplied with the dataset `netflix_data.csv`, along with the follo
 
 
 
-Solve the following Assingnment:
+Solve the following Assignment:
 Perform exploratory data analysis on the netflix_data.csv data to understand more about movies from the 1990s decade.
 
 1. What was the most frequent movie duration in the 1990s? Save an approximate answer as an integer called duration (use 1990 as the decade's start year).
